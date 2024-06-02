@@ -148,19 +148,19 @@ export default class Resources extends EventEmitter
             { name: 'hornCollision', source: './models/horn/collision.glb' },
 
             // // Distinction A
-            // { name: 'distinctionAStaticBase', source: './models/distinctionA/static/base.glb' },
-            // { name: 'distinctionAStaticCollision', source: './models/distinctionA/static/collision.glb' },
-            // { name: 'distinctionAStaticFloorShadow', source: './models/distinctionA/static/floorShadow.png', type: 'texture' },
+            { name: 'distinctionAStaticBase', source: './models/distinctionA/static/base.glb' },
+            { name: 'distinctionAStaticCollision', source: './models/distinctionA/static/collision.glb' },
+            { name: 'distinctionAStaticFloorShadow', source: './models/distinctionA/static/floorShadow.png', type: 'texture' },
 
             // // Distinction B
-            // { name: 'distinctionBStaticBase', source: './models/distinctionB/static/base.glb' },
-            // { name: 'distinctionBStaticCollision', source: './models/distinctionB/static/collision.glb' },
-            // { name: 'distinctionBStaticFloorShadow', source: './models/distinctionB/static/floorShadow.png', type: 'texture' },
+            { name: 'distinctionBStaticBase', source: './models/distinctionB/static/base.glb' },
+            { name: 'distinctionBStaticCollision', source: './models/distinctionB/static/collision.glb' },
+            { name: 'distinctionBStaticFloorShadow', source: './models/distinctionB/static/floorShadow.png', type: 'texture' },
 
             // // Distinction C
-            // { name: 'distinctionCStaticBase', source: './models/distinctionC/static/base.glb' },
-            // { name: 'distinctionCStaticCollision', source: './models/distinctionC/static/collision.glb' },
-            // { name: 'distinctionCStaticFloorShadow', source: './models/distinctionC/static/floorShadow.png', type: 'texture' },
+            { name: 'distinctionCStaticBase', source: './models/distinctionC/static/base.glb' },
+            { name: 'distinctionCStaticCollision', source: './models/distinctionC/static/collision.glb' },
+            { name: 'distinctionCStaticFloorShadow', source: './models/distinctionC/static/floorShadow.png', type: 'texture' },
 
             // // Cone
             // { name: 'coneBase', source: './models/cone/base.glb' },
