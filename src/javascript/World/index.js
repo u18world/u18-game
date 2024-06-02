@@ -446,7 +446,13 @@ export default class World
         })
         this.container.add(this.sections.distinctionD.container)
 
-       
+        // Intro
+        this.sections.intro = new IntroSection({
+            ...options,
+            x: 0,
+            y: 0
+        })
+        this.container.add(this.sections.intro.container)
 
         // Crossroads
         this.sections.crossroads = new CrossroadsSection({
