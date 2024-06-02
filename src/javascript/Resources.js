@@ -148,27 +148,34 @@ export default class Resources extends EventEmitter
             { name: 'hornCollision', source: './models/horn/collision.glb' },
 
             // // Distinction A
+            /**
             { name: 'distinctionAStaticBase', source: './models/distinctionA/static/base.glb' },
             { name: 'distinctionAStaticCollision', source: './models/distinctionA/static/collision.glb' },
             { name: 'distinctionAStaticFloorShadow', source: './models/distinctionA/static/floorShadow.png', type: 'texture' },
 
             // // Distinction B
+            /**
             { name: 'distinctionBStaticBase', source: './models/distinctionB/static/base.glb' },
             { name: 'distinctionBStaticCollision', source: './models/distinctionB/static/collision.glb' },
             { name: 'distinctionBStaticFloorShadow', source: './models/distinctionB/static/floorShadow.png', type: 'texture' },
+            */
 
             // // Distinction C
+            /**
             { name: 'distinctionCStaticBase', source: './models/distinctionC/static/base.glb' },
             { name: 'distinctionCStaticCollision', source: './models/distinctionC/static/collision.glb' },
             { name: 'distinctionCStaticFloorShadow', source: './models/distinctionC/static/floorShadow.png', type: 'texture' },
+            */
 
             // // Cone
-           { name: 'coneBase', source: './models/cone/base.glb' },
+            /**
+            { name: 'coneBase', source: './models/cone/base.glb' },
             { name: 'coneCollision', source: './models/cone/collision.glb' },
+            */
 
             // // Awwwards trophy
-            { name: 'awwwardsTrophyBase', source: './models/awwwardsTrophy/base.glb' },
-            { name: 'awwwardsTrophyCollision', source: './models/awwwardsTrophy/collision.glb' },
+            // { name: 'awwwardsTrophyBase', source: './models/awwwardsTrophy/base.glb' },
+            // { name: 'awwwardsTrophyCollision', source: './models/awwwardsTrophy/collision.glb' },
 
             // Webby trophy
             { name: 'webbyTrophyBase', source: './models/webbyTrophy/base.glb' },
