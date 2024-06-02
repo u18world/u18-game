@@ -21,7 +21,6 @@ import DistinctionDSection from './Sections/DistinctionDSection.js'
 import Controls from './Controls.js'
 import Sounds from './Sounds.js'
 import gsap from 'gsap'
-import EasterEggs from './EasterEggs.js'
 
 export default class World
 {
@@ -75,7 +74,6 @@ export default class World
         this.setTiles()
         this.setWalls()
         this.setSections()
-        this.setEasterEggs()
     }
 
     setReveal()
@@ -493,20 +491,5 @@ export default class World
             // y: - 4
         })
         this.container.add(this.sections.playground.container)
-    }
-
-    setEasterEggs()
-    {
-        this.easterEggs = new EasterEggs({
-            resources: this.resources,
-            car: this.car,
-            walls: this.walls,
-            objects: this.objects,
-            materials: this.materials,
-            areas: this.areas,
-            config: this.config,
-            physics: this.physics
-        })
-        this.container.add(this.easterEggs.container)
     }
 }
